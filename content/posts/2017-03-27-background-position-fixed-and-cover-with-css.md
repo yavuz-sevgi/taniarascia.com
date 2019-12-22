@@ -43,4 +43,4 @@ Then you'd simply add the background image to the div and adjust the `height` pr
 
 I'm only loading the background image in the HTML in the case that you're pulling the image dynamically via PHP. Otherwise, you can create separate classes with background images in the CSS file.
 
-`fixed` and `cover` didn't use to play well together, and you would have to put the `height` property in an outer container, but I tested this code on Chrome, Firefox, Safari, and Opera, and it works fine.
+`fixed` and `cover` didn't use to play well together, and you would have to put the `height` property in an outer container, but I tested this code on Chrome, Firefox, Safari, and Opera, and it works fine. Mobile browser behavior is difference. Fixed background attachment has no effect on mobile browers.
